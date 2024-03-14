@@ -6,12 +6,12 @@ This Flask application scrapes book attributes from the website "http://books.to
 1. Clone the repository to your local machine:
    ### git clone "https://github.com/pintuux/Book_scraper.git"
    
-3. Install the required dependencies:
+2. Install the required dependencies:
    ### pip install Flask requests mysql-connector-python beautifulsoup4
    
-5. Set up the MySQL database by creating a database and table named books. Update the 'config/db_config.py' file with your MySQL database connection details.
+3. Set up the MySQL database by creating a database and table named books. Update the 'config/db_config.py' file with your MySQL database connection details.
 
-6. Run the Flask application:
+4. Run the Flask application:
    ### python app.py
 
 ## Usage
