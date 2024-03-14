@@ -19,10 +19,13 @@ Once the Flask application is running, you can access the following endpoints:
 >> '/scrap': Initiates the scraping process. The application scrapes book attributes from all 50 pages of "http://books.toscrape.com/catalogue/" and stores them in the MySQL database.
 
 Dependencies
->> Flask: A lightweight web framework for Python.
->> requests: A library for making HTTP requests.
->> mysql-connector-python: A connector library for MySQL databases.
->> beautifulsoup4: A library for web scraping.
+ Flask: A lightweight web framework for Python.
+ 
+ requests: A library for making HTTP requests.
+ 
+ mysql-connector-python: A connector library for MySQL databases.
+ 
+ beautifulsoup4: A library for web scraping.
 Contributors
 Pintu Kumar
 License
