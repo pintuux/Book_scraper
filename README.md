@@ -5,23 +5,23 @@ This Flask application scrapes book attributes from the website "http://books.to
 ## Installation
 1. Clone the repository to your local machine:
    
-    git clone <repository_url>
+    ### git clone <repository_url>
 3. Install the required dependencies:
    
-    pip install Flask requests mysql-connector-python beautifulsoup4
+    ### pip install Flask requests mysql-connector-python beautifulsoup4
 5. Set up the MySQL database by creating a database and table named books. Update the 'config/db_config.py' file with your MySQL database connection details.
 
 6. Run the Flask application:
    
-  python app.py
+    ### python app.py
 
 ## Usage
 
 Once the Flask application is running, you can access the following endpoints:
 
-1. '/': Returns a message indicating that the server is running.
+1. #### '/':  Returns a message indicating that the server is running.
 
-2. '/scrap': Initiates the scraping process. The application scrapes book attributes from all 50 pages of "http://books.toscrape.com/catalogue/" and stores them in the MySQL database.
+2.#### '/scrap': Initiates the scraping process. The application scrapes book attributes from all 50 pages of "http://books.toscrape.com/catalogue/" and stores them in the MySQL database.
 
 ## Dependencies
 
