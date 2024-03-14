@@ -1,4 +1,5 @@
 Book Scraper
+
 This Flask application scrapes book attributes from the website "http://books.toscrape.com" and stores them in a MySQL database.
 
 Installation
