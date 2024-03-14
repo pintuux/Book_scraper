@@ -11,7 +11,9 @@ Installation
 
 4. Run the Flask application:
   python app.py
+
 Usage
+
 Once the Flask application is running, you can access the following endpoints:
 
 '/': Returns a message indicating that the server is running.
