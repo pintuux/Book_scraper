@@ -14,19 +14,24 @@ Installation
 Usage
 Once the Flask application is running, you can access the following endpoints:
 
->> '/': Returns a message indicating that the server is running.
+'/': Returns a message indicating that the server is running.
 
->> '/scrap': Initiates the scraping process. The application scrapes book attributes from all 50 pages of "http://books.toscrape.com/catalogue/" and stores them in the MySQL database.
+'/scrap': Initiates the scraping process. The application scrapes book attributes from all 50 pages of "http://books.toscrape.com/catalogue/" and stores them in the MySQL database.
 
 Dependencies
- Flask: A lightweight web framework for Python.
+
+Flask: A lightweight web framework for Python.
  
- requests: A library for making HTTP requests.
+requests: A library for making HTTP requests.
  
- mysql-connector-python: A connector library for MySQL databases.
+mysql-connector-python: A connector library for MySQL databases.
  
- beautifulsoup4: A library for web scraping.
+beautifulsoup4: A library for web scraping.
+
 Contributors
+
 Pintu Kumar
+
 License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
