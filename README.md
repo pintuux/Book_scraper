@@ -1,8 +1,8 @@
-Book Scraper
+# Book Scraper
 
 This Flask application scrapes book attributes from the website "http://books.toscrape.com" and stores them in a MySQL database.
 
-Installation
+## Installation
 1. Clone the repository to your local machine:
     git clone <repository_url>
 2. Install the required dependencies:
@@ -12,7 +12,7 @@ Installation
 4. Run the Flask application:
   python app.py
 
-Usage
+## Usage
 
 Once the Flask application is running, you can access the following endpoints:
 
@@ -20,7 +20,7 @@ Once the Flask application is running, you can access the following endpoints:
 
 '/scrap': Initiates the scraping process. The application scrapes book attributes from all 50 pages of "http://books.toscrape.com/catalogue/" and stores them in the MySQL database.
 
-Dependencies
+## Dependencies
 
 Flask: A lightweight web framework for Python.
  
@@ -30,10 +30,10 @@ mysql-connector-python: A connector library for MySQL databases.
  
 beautifulsoup4: A library for web scraping.
 
-Contributors
+## Contributors
 
 Pintu Kumar
 
-License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
