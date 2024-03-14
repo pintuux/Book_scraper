@@ -21,7 +21,7 @@ Once the Flask application is running, you can access the following endpoints:
 
 1. #### '/':  Returns a message indicating that the server is running.
 
-2.#### '/scrap': Initiates the scraping process. The application scrapes book attributes from all 50 pages of "http://books.toscrape.com/catalogue/" and stores them in the MySQL database.
+2. #### '/scrap': Initiates the scraping process. The application scrapes book attributes from all 50 pages of "http://books.toscrape.com/catalogue/" and stores them in the MySQL database.
 
 ## Dependencies
 
